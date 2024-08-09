@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "github": "^14.0.0",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.2",
+    "openai": "^4.47.2",
+    "path": "^0.12.7",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6",
+    "string-similarity": "^4.0.4",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus",
+    "wwebjs-mongo": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore auth_info_baileys --ignore baileys_store.json"
+  },
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

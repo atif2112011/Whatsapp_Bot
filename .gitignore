@@ -1,0 +1,11 @@
+*node_modules
+*.env
+
+RemoteAuth.*
+
+# Ignore .wwebjs_cache directory
+.wwebjs_cache/
+.wwebjs_auth/
+
+# Ignore WhatsappAuth directory
+WhatsappAuth/

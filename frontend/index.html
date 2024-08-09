@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Bot Connection</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>WhatsApp Bot Connection</h1>
+      <button id="statusButton" class="status-button">Connecting...</button>
+      <button id="refreshButton" class="refresh-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-clockwise"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 1 1 .908-.418A6 6 0 1 1 8 2v1a.5.5 0 0 1-1 0V2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H8z"
+          />
+        </svg>
+        Refresh Status
+      </button>
+      <div id="qrCodeContainer" class="qr-code-container">
+        <img
+          id="qrImage"
+          src=""
+          alt="QR Code Generating....try after few seconds"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
